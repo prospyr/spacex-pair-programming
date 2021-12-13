@@ -33,6 +33,11 @@ We'll be using [Apollo](https://www.apollographql.com/) to communicate with the 
 
 The Apollo provider is already setup in `src/index.js` and connected to the SpaceX configured GQL client, so you can get started with pulling data into your components right away.
 
+## Initial goal
+
+- Build a screen that shows the last 10 launches from the SpaceX GraphQL API
+- Build a screen that shows more details about a specific launch, that will be linked to from the launch list screen you created
+
 ## Let's explore further into space
 
 - How would you improve the interface?
