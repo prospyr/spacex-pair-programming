@@ -26,6 +26,13 @@ We will build two screens, one with a list of _Launches_ and the other with a si
 
 The SpaceX GraphQL API is public, and can be played with [here](https://studio.apollographql.com/public/SpaceX-pxxbxen/home?variant=current)
 
+We'll be using [Apollo](https://www.apollographql.com/) to communicate with the GraphQL API, here are some relevant links to Apollo docs:
+
+- [useQuery hook](https://www.apollographql.com/docs/react/api/react/hooks/#usequery)
+- [result data shape](https://www.apollographql.com/docs/react/api/react/hooks/#result)
+
+The Apollo provider is already setup in `src/index.js` and connected to the SpaceX configured GQL client, so you can get started with pulling data into your components right away.
+
 ## Let's explore further into space
 
 - How would you improve the interface?
