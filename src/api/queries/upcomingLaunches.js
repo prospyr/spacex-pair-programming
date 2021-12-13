@@ -1,3 +1,5 @@
+import gql from 'graphql-tag';
+
 const UPCOMING_LAUNCHES = gql`
   query Launches($limit: Int) {
     launches(limit: $limit) {
